@@ -1,0 +1,5 @@
+Modes of Inheritance: This refers to the structure of how classes inherit from one another, such as single, multiple, multilevel, hierarchical, and hybrid inheritance. It defines the relationship between classes and how they share properties and behaviors.
+
+Access Specifiers: These determine the visibility and accessibility of the inherited members in the derived classes. They include public, protected, and private, controlling how and where those members can be accessed.
+
+Public, protected, and private are not modes of inheritance; they are access specifiers.

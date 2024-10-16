@@ -1,0 +1,15 @@
+Encapsulation and abstraction are both fundamental concepts in object-oriented programming, but they serve different purposes:
+
+### Encapsulation
+- **Definition**: Encapsulation is the practice of bundling data (attributes) and methods (functions) that operate on that data into a single unit, typically a class. It restricts direct access to some of an object’s components.
+- **Purpose**: The main goal is to protect the object's internal state and prevent external interference. This is often achieved using access modifiers (like private, protected, and public).
+- **Example**: A class `Car` may have private variables like `speed` and `fuelLevel` with public methods to get and set these values safely.
+
+### Abstraction
+- **Definition**: Abstraction is the concept of hiding the complex implementation details and showing only the essential features of an object. It allows focusing on what an object does rather than how it does it.
+- **Purpose**: The aim is to simplify interactions with the object by exposing only relevant attributes and methods, thus reducing complexity.
+- **Example**: An interface `Vehicle` might define methods like `start()`, `stop()`, and `accelerate()`, without revealing how each vehicle implements these methods.
+
+### Summary
+- **Encapsulation** focuses on protecting the internal state of an object, while **abstraction** simplifies interactions by hiding complexity.
+- Both concepts work together to create well-structured, maintainable code in object-oriented programming.

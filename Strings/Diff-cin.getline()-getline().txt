@@ -1,0 +1,43 @@
+Key Differences
+Type of Storage:
+
+std::getline stores input in a std::string, which manages memory automatically and can grow in size.
+
+std::cin.getline stores input in a C-style character array, which requires a predetermined size.
+
+
+Flexibility:
+
+std::getline is generally more flexible and easier to use, especially for variable-length input.
+
+std::cin.getline can be less convenient due to fixed buffer sizes and manual memory management.
+
+
+
+Delimiters:
+
+Both functions allow for custom delimiters, but the way they are specified is different.
+
+
+
+Summary
+Use std::getline for reading into std::string and when you want flexibility and ease of use.
+
+
+Use std::cin.getline when you need to read into a fixed-size character array.
+
+
+Input parameters of cin.getline
+
+Parameters:
+
+s: A pointer to a character array (C-style string) where the input will be stored.
+n: The maximum number of characters to read, including the null terminator (\0).
+Description: This version reads characters from the input stream until a newline character is encountered or until n - 1 characters are read. It appends a null terminator at the end of the string.
+
+with custom delimeter
+
+s: A pointer to a character array where the input will be stored.
+n: The maximum number of characters to read, including the null terminator.
+delim: A character that acts as the delimiter. Reading stops when this character is encountered.
+Description: This version  reads characters from the input stream until the specified delimiter is encountered or until n - 1 characters are read. It also appends a null terminator.
